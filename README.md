@@ -3,6 +3,9 @@
 
 ## Description:-
 
+## Required jars are:-
+   spring web, spring boot devtools, spring data jpa, MySql driver, mysql-connector.
+
 This is a springboot project impelement with rest-api, where we can perform complete "CRUD" operation using "PostMan".
 I have used "MySql" server database for this project. In this project we'have 4 packages.
 
@@ -42,7 +45,7 @@ spring.jpa.hibernate.ddl-auto=update
     In "PostMan" set request type as "POST"   
     
 ### for deleting record  
-   http://localhost:9777/delete/Id      /*In place of Id provide integer value */    
+   http://localhost:9777/delete/Id   /*In place of Id provide integer value */    
    In "PostMan" set request type as "GET"  
 
   
