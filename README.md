@@ -26,3 +26,23 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect  
 spring.jpa.hibernate.ddl-auto=update  
+
+## url for performing operations  
+### for save operation   
+       http://localhost:9777/save    
+       In "PostMan" set request type as "POST" and in the request body, choose the "raw" option and select "JSON" as content type.  
+### for getting all the data  
+      http://localhost:9777/select  
+      In "PostMan" set request type as "GET"  
+### for getting one record  
+    http://localhost:9777/selectOne/Id     /*In place of Id provide integer value.*/  
+    In "PostMan" set request type as "GET"  
+### for updating record 
+    http://localhost:9777/update/Id       /*In place of Id provide integer value.*/   
+    In "PostMan" set request type as "POST"   
+    
+### for deleting record  
+   http://localhost:9777/delete/Id      /*In place of Id provide integer value */    
+   In "PostMan" set request type as "GET"  
+
+  
