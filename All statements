@@ -1,0 +1,1 @@
+When table created:- create table student (roll_no integer not null, city varchar(255), course varchar(255), moblie_no bigint not null, sname varchar(255), primary key (roll_no)) engine=InnoDB
